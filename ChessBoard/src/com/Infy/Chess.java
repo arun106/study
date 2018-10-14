@@ -4,7 +4,7 @@
 package com.Infy;
 
 /**
- * @author Arun_Mohan01
+ * @author Arun Mohan
  *
  */
 public interface Chess {
