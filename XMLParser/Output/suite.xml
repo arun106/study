@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite name="Main Test Suite" verbose="2">
+    <test name="TestNGTestGroup">
+        <parameter name="abc" value="abcfortest">
+            <classes>
+                <class name="com.testng.tests.TestNgSampleClass">
+                    <methods>
+                        <include name="fnwithparam"/>
+                    </methods>
+                </class>
+            </classes>
+        </parameter>
+    </test>
+</suite>

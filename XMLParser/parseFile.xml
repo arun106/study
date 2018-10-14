@@ -1,0 +1,10 @@
+<rootelement>
+<country id="1">
+<key>India</key>
+<value>Delhi</value>
+</country>
+<country id="2">
+<key>Malaysia</key>
+<value>KualaLumpur</value>
+</country>
+</rootelement>
