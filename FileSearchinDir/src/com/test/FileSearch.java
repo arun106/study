@@ -1,4 +1,4 @@
-package com.Infy;
+package com.test;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -11,7 +11,7 @@ public class FileSearch {
 		FileSearch ff = new FileSearch();
         //Scanner scan = new Scanner(System.in);
         System.out.println("Enter the file to be searched.. " );
-        String name = "PTDXLT0279110000000442640834.xml";
+        String name = "file.xml";
         System.out.println("Enter the directory where to search ");
         String directory = "D:\\Test\\Search";
         ff.findFile(name,new File(directory));
