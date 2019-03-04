@@ -1,4 +1,4 @@
-package com.Infy;
+package com.test;
 
 public enum PieceColor {
 	Black,

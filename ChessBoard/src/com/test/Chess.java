@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.Infy;
+package com.test;
 
 /**
  * @author Arun Mohan
