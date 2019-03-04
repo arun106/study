@@ -1,4 +1,4 @@
-package com.Infy.Pojo;
+package com.xml.pojo;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

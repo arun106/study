@@ -1,4 +1,4 @@
-package com.Infy.Pojo;
+package com.xml.pojo;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.Infy;
+package com.xml;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

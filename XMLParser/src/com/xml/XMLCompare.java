@@ -1,4 +1,4 @@
-package com.Infy;
+package com.xml;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,8 +12,8 @@ public class XMLCompare {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String xml1 = "<POSPDM><pdm1>value1</pdm1><pdm2>value2</pdm2></POSPDM>";
-		String xml2 = "<POSPDM><pdm1>value3</pdm1><pdm2>value4</pdm2></POSPDM>";
+		String xml1 = "<P><p1>value1</p1><p2>value2</p2></P>";
+		String xml2 = "<P><p1>value3</p1><p2>value4</p2></P>";
 		
         DetailedDiff diff;
 		try {

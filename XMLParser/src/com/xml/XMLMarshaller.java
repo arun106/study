@@ -1,4 +1,4 @@
-package com.Infy;
+package com.xml;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -9,13 +9,13 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import com.Infy.Pojo.Class;
-import com.Infy.Pojo.Parameter;
-import com.Infy.Pojo.Suite;
-import com.Infy.Pojo.Test;
-import com.Infy.Pojo.Classes;
-import com.Infy.Pojo.Include;
-import com.Infy.Pojo.Methods;
+import com.xml.pojo.Class;
+import com.xml.pojo.Parameter;
+import com.xml.pojo.Suite;
+import com.xml.pojo.Test;
+import com.xml.pojo.Classes;
+import com.xml.pojo.Include;
+import com.xml.pojo.Methods;
 
 /**
  * Class for marshalling an Object to XML
