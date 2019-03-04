@@ -1,34 +1,14 @@
 package com.test;
 
-public class Child extends Master {
-	public Integer i = 25;
-	public Integer j = 45;
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Child extends Parent {
+	Child() {
+		System.out.println("Child constructor");
+	}
+	static {
+		System.out.println("Child static block");
+	}
+	public static void main(String args[]) {
+		System.out.println("Child main method");
 		Child child = new Child();
-		Master master = new Child();
-		System.out.println(child.i);
-		System.out.println(master.i);
-		
-		System.out.println(child.j);
-
-		child.printchild();
-		child.printMaster();
-		child.printBoth();
-		
-		master.printMaster();
-		master.printBoth();
-		
-	}
-	
-	void printchild()
-	{
-		System.out.println("Im child");
-	}
-
-	void printBoth()
-	{
-		System.out.println("Im child - both");
 	}
 }
