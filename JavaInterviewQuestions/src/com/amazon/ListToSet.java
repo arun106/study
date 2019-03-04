@@ -1,8 +1,11 @@
 package com.amazon;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class ListToSet {
 
@@ -21,6 +24,14 @@ public class ListToSet {
 		Set<String> strSet = new HashSet<>();
 		strSet.addAll(li);
 		System.out.println(strSet);
+				
+		SortedSet<String> sortedSet = new TreeSet<String>();
+		sortedSet.addAll(li);
+		
+		System.out.println("Sorted set - "+sortedSet);
+		
+		
 	}
+	
 
 }

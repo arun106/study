@@ -1,6 +1,7 @@
 package com.amazon;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class RemoverepeatedStringQuestion {
@@ -16,12 +17,19 @@ public class RemoverepeatedStringQuestion {
 		// TODO Auto-generated method stub
 		ArrayList<String> li = new ArrayList<>();
 		
-		li.add("my name is arun");
+		/*li.add("my name is arun");
 		li.add("my name is name");
 		li.add("my name is my");
-		li.add("name arun name");
-		RemoverepeatedStringQuestion rem = new RemoverepeatedStringQuestion();
-		System.out.println(rem.removeRepeated(li));
+		li.add("name arun name");*/
+		li.add("abc");
+		li.add("abc1");
+		li.add("abc2");
+		li.add("abc10");
+		Collections.sort(li);
+		System.out.println(li);
+		
+		//RemoverepeatedStringQuestion rem = new RemoverepeatedStringQuestion();
+		//System.out.println(rem.removeRepeated(li));
 		
 	}
 	public List<String> removeRepeated(List<String> li)
